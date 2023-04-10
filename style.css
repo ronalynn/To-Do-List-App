@@ -80,12 +80,17 @@ form button:hover {
 }
 
 .trash-btn, 
-.complete-btn {
+.complete-btn,
+.edit-btn {
     color: white;
     border: none;
     padding: 1rem;
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+.edit-btn{
+    background: #91d4a5;
 }
 
 .complete-btn {
@@ -103,7 +108,8 @@ form button:hover {
 }
 
 .fa-trash, 
-.fa-check-circle {
+.fa-check-circle,
+.fas-pencil {
     pointer-events: none;
 }
 
